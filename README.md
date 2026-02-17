@@ -25,7 +25,7 @@ repetition_texts= ['ik ga naar de winkel','mama', 'jij eet een banaan']
 cossim_model= CosSim_predict(source_texts=source_texts, repetition_texts=repetition_texts,language='nl')
 preds_cossim= cossim_model.predict_repetitions(repetition_type='self-repetition',vector_type='semantic')
 ```
-The ***second model type** are BERT-models that we finetuned on our gold standard annotation data in Dutch and French.
+The **second model type** are BERT-models that we finetuned on our gold standard annotation data in Dutch and French.
 The models therefore only work on data in these languages.
 
 ```From Predict import BERT_predict
