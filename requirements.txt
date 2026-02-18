@@ -1,0 +1,12 @@
+Python<3.14
+datasets==4.4.2
+numpy==2.4.2
+pandas==3.0.1
+praatio==6.2.2
+regex==2025.11.3
+sentence_transformers==5.2.0
+spacy==3.8.11
+tgt==1.5
+torch==2.9.1
+transformers==4.57.3
+typing==3.7.4.3
