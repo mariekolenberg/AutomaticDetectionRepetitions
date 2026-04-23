@@ -1,4 +1,4 @@
-This repository contains the NLP models described in the paper 'Automatic Detection of Immediate and Self Repetitions in Naturalistic Speech Recordings of French- and Dutch-Speaking Autistic Children'. 
+This repository contains the NLP models described in the paper 'Automatic Detection of Direct and Self Repetitions in Naturalistic Speech Recordings of French- and Dutch-Speaking Autistic Children'. 
 The models aim at detecting repetitions in the speech of a target child, more specifically direct repetitions from utterances of other speakers pronounced less than 10 seconds before the target utterance, 
 or self-repetitions (from utterances spoken by the target child inside the same sound file). For more information about the goals and the working of the models, see the paper. 
 Using the `preprocess_textgrid` function in 'Extract_repetition_candidates', the user can **extract all pairs of utterances** from a Textgrid file that are candidates for a source-repetition pair.
